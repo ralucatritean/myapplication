@@ -3,6 +3,8 @@
   height: 100vh;
 }
 body{
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -19,6 +21,7 @@ body{
   width: 100%;
   height: 50px;
   list-style-type: none;
+  margin-top: 0px;
   margin: 0;
   display: flex;
   flex-direction: row;
@@ -44,8 +47,44 @@ body{
   color: white;
 
 }
+.container {
+  display: flex;
+  height: 100vh;
+}
+.contentPage{
+  color:#0f477b;
+  flex: 1;
+  height: 100vh;
+}
+.myProfile{
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+   height: 80px;
+
+}
+.profileInfo{
+  padding-left: 10px;
+  height: 80px;
+  flex: 1;
+  height: auto;
+  margin: 0;
+}
+#details{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px
+}
+.profile{
+  display: inline-flex;
+  
+    width: 80px;
+    border-radius: 50%;
+    align-items: left;
+}
 .Sidebar{
   width: 250px;
-  height: 100%;
+  height: 100vh;
   background: #2f4050;
 };

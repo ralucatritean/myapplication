@@ -1,8 +1,10 @@
 import React from 'react'
 import { SidebarData } from './SidebarDate';
+import MyProfile from './MyProfile';
 function Sidebar(){
     return(
     <div className='Sidebar'> 
+        <MyProfile/>
     <ul className='SidebarList'>
        { SidebarData.map((val,key) =>{
         return (

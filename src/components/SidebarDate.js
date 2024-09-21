@@ -5,7 +5,7 @@ export const SidebarData=[
     {
         title: "CV",
         icon: <img className='iconImage' src={CV} alt="CV Icon" />,
-        link:"/cv"
+        link:"/MyCvPage"
     },
     {
         title: "Shop Project",
